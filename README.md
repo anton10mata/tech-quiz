@@ -21,66 +21,61 @@ The Tech Quiz Application is a full-stack web application that allows users to t
 ```bash
 git clone https://github.com/your-username/tech-quiz.git
 cd tech-quiz
-2. Install dependencies:
+```
+### 2. Install dependencies:
 For the server:
-bash
-Copy
-Edit
+```bash
 cd server
 npm install
+```
 For the client:
-bash
-Copy
-Edit
+```bash
 cd ../client
 npm install
-3. Set up the environment variables:
+```
+### 3. Set up the environment variables:
 Create a .env file in the server directory with the following:
-
-bash
-Copy
-Edit
+```bash
 MONGO_URI=mongodb://localhost:27017/tech-quiz
 PORT=5001
-4. Start the application:
+```
+### 4. Start the application:
 Start the server:
-bash
-Copy
-Edit
+```bash
 cd server
 npm start
+```
 Start the client:
-bash
-Copy
-Edit
+```bash
 cd ../client
 npm start
+```
 The client will run on http://localhost:3001 by default.
 
-Usage
-Open the application in your browser at http://localhost:3001.
-Click "Start Quiz" to begin.
-Answer each question by selecting an option.
-View your score at the end of the quiz.
-Retake the quiz by clicking "Take New Quiz."
-Testing
+## Usage
+### 1. Open the application in your browser at http://localhost:3001.
+### 2. Click "Start Quiz" to begin.
+### 3. Answer each question by selecting an option.
+### 4. View your score at the end of the quiz.
+### 5. Retake the quiz by clicking "Take New Quiz."
+
+## Testing
 Run Cypress tests:
-Start the server and client as described in the Installation section.
-Run the Cypress test suite:
-bash
-Copy
-Edit
+### 1. Start the server and client as described in the [Installation](#installation) section.
+### 2. Run the Cypress test suite:
+```bash
 npx cypress open
-Select the tests you want to run from the Cypress interface.
+```
+### 3. Select the tests you want to run from the Cypress interface.
 The application includes both component and end-to-end tests for the quiz functionality.
 
-License
+## License
 This project is licensed under the MIT license.
 
-Contributing
+## Contributing
 Fork the repo, create a feature branch, and submit a pull request.
 
-Questions
+## Questions
 If you have any questions, feel free to reach out:
 
-GitHub: your-username
+GitHub: anton10mata
