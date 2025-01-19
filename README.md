@@ -13,7 +13,7 @@ The Tech Quiz Application is a full-stack web application that allows users to t
 - [Questions](#questions)
 
 ## Walkthrough Video
-[Click here to view the walkthrough video](https://your-walkthrough-video-link)
+[Click here to view the walkthrough video](https://youtu.be/gK5YajNM8Ng)
 
 ## Installation
 
